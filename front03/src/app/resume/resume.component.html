@@ -1,0 +1,21 @@
+<div class="resume-container">
+    <div class="resume-page">
+      <div id="left-side">
+        <div id="avatar-circle"></div>
+        <div class="section" *ngFor="let section of leftSections">
+          <h2 class="section-title">{{ section.title }}</h2>
+          <ul>
+            <li class="section-item" *ngFor="let item of section.items">{{ item }}</li>
+          </ul>
+        </div>
+      </div>
+      <div id="right-side">
+        <div class="section" *ngFor="let section of rightSections">
+          <h2 class="section-title">{{ section.title }}</h2>
+          <ul>
+            <li class="section-item" *ngFor="let item of section.items">{{ item }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
