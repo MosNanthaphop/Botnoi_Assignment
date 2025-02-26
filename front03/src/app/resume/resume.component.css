@@ -171,13 +171,13 @@
 
 .timeline2-item::before {
   content: "";
-  width: 6.5px;
-  height: 6.5px;
+  width: 6px;
+  height: 6px;
   background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
-  left: -23.7px;
-  top: 4.3px;
+  left: -23px;
+  top: 4.5px;
 }
 
 .timeline-item {
