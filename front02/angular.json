@@ -5,17 +5,7 @@
   "projects": {
     "front02": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "standalone": false
-        },
-        "@schematics/angular:directive": {
-          "standalone": false
-        },
-        "@schematics/angular:pipe": {
-          "standalone": false
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -109,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "96c087ce-77d9-4d94-af8a-6e539eaae8e0"
+    "analytics": "92db4e84-0d09-4a74-9f55-9c4619ce8495"
   }
 }
